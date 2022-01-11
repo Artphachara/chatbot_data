@@ -1,4 +1,4 @@
-lineman_data = {
+{
     "intents": [
         {
             "tag": "greeting",

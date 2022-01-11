@@ -1,6 +1,5 @@
-DefineKeywordData = {
+{
     "Defi_Keyword": [
-        #LineMan
         {
             "tag": "Apps",
             "specific": [
@@ -48,14 +47,13 @@ DefineKeywordData = {
             ],
             "means": "Pickup"
         },
-        #Insurance
         {
             "tag": "Insurance",
             "specific": [
                 "ประกันรถยนต์",
                 "ประกันรถยนตร์",
                 "ประกันภัยรถยนต์",
-                "ประกันภัยรถยนตร์",   
+                "ประกันภัยรถยนตร์"  
             ],
             "means": "ประกันภัยรถยนต์"
         },
