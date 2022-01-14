@@ -48,6 +48,14 @@
             "means": "Pickup"
         },
         {
+            "tag": "Coupon",
+            "specific":[
+                "คูปอง",
+                "ส่วนลด"
+            ],
+            "means": "คูปองส่วนลด"
+        },
+        {
             "tag": "Insurance",
             "specific": [
                 "ประกันรถยนต์",
