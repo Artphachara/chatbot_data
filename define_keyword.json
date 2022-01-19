@@ -5,7 +5,9 @@
             "specific": [
                 "ไลน์แมน",
                 "ลายแมน",
-                "ไลแมน"
+                "ไลแมน",
+                "line man",
+                "lineman"
             ],
             "means": "LineMan"
         },
@@ -16,7 +18,10 @@
                 "ไลน์พ้อย",
                 "ลายพ้อย",
                 "ไลพ้อย",
-                "Line points"
+                "Line points",
+                "Linepoints",
+                "linepoints",
+                "line points"
             ],
             "means": "LinePoints"       
         },
