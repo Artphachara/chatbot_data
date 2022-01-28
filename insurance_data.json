@@ -210,6 +210,15 @@
             "responses": [
                 "วิธีการเคลมประกันภัยรถยนตร์...https://www.muangthaiinsurance.com/th/page/ClaimInformNopartiesPa"
             ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "ขอโทษค่ะไม่เข้าใจ"
+            ]
         }
     ]
 }
