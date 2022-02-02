@@ -37,11 +37,12 @@
             "tag": "E-Pay",
             "specific": [
                 "อีเพย์เมนท์",
-                "e-payment",
+                "E-payment",
+                "E-Payment",
                 "อีเพเม้น",
                 "อีเพ"
             ],
-            "means": "E-Payment"
+            "means": "e-payment"
         },
         {
             "tag": "Pick-Up",
@@ -230,7 +231,7 @@
                 "ทำไมจ่าย e-payment ไม่ได้",
                 "จ่าย e-payment ไม่ได้หรอ"
             ],
-            "means": "จ่าย e-payment"
+            "means": "e-payment"
         },
         {
             "tag": "payment02",
