@@ -36,13 +36,13 @@
         {
             "tag": "E-Pay",
             "specific": [
-                "อีเพย์เมนท์",
+                "e-payment",
                 "E-payment",
                 "E-Payment",
                 "อีเพเม้น",
                 "อีเพ"
             ],
-            "means": "e-payment"
+            "means": "อีเพย์เมนท์"
         },
         {
             "tag": "Pick-Up",
