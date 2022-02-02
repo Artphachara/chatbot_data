@@ -36,9 +36,9 @@
         {
             "tag": "E-Pay",
             "specific": [
-                "e-payment",
-                "E-payment",
-                "E-Payment",
+                "epayment",
+                "Epayment",
+                "EPayment",
                 "อีเพเม้น",
                 "อีเพ"
             ],
