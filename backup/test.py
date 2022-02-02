@@ -21,10 +21,10 @@ with open('define_keyword.json' , encoding="utf8") as DefineKeywordData:
   DefineKeywordData = json.load(DefineKeywordData)
 
 #Add Dictionarie
-import add_dict
-import keywording
-import ignoring
-import run
+import backup.add_dict as add_dict
+import backup.keywording as keywording
+import backup.ignoring as ignoring
+import backup.run as run
 #KEYWORD EXTRACTION
 # sentence.
 # text = "สนใจรายได้เสริมอาทิตย์ละ 7000-8000 บาทต่อสัปดาห์ติดต่อ @line: phachara1998"

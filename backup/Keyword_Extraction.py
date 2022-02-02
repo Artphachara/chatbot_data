@@ -11,9 +11,9 @@ import pandas as pd
 import pythainlp
 import random
 
-import add_dict
-import keywording
-import ignoring
+import backup.add_dict as add_dict
+import backup.keywording as keywording
+import backup.ignoring as ignoring
 
 with open('lineman_data.json' ,encoding="utf8") as lineman_data:
   lineman_data = json.load(lineman_data)

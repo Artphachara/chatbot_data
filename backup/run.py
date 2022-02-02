@@ -12,9 +12,9 @@ import pandas as pd
 import pythainlp
 import random
 
-import ignoring
-import add_dict
-import keywording
+import backup.ignoring as ignoring
+import backup.add_dict as add_dict
+import backup.keywording as keywording
 
 with open('define_keyword.json' , encoding="utf8") as DefineKeywordData:
   DefineKeywordData = json.load(DefineKeywordData)
