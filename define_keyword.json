@@ -3,18 +3,18 @@
         {
             "tag": "Apps",
             "specific": [
-                "ไลน์แมน",
                 "ลายแมน",
                 "ไลแมน",
                 "line man",
-                "lineman"
+                "lineman",
+                "LineMan"
             ],
-            "means": "LineMan"
+            "means": "ไลน์แมน"
         },
         {
             "tag": "Points",
             "specific": [
-                "ไลน์พอยท์",
+                "LinePoints",
                 "ไลน์พ้อย",
                 "ลายพ้อย",
                 "ไลพ้อย",
@@ -23,15 +23,16 @@
                 "linepoints",
                 "line points"
             ],
-            "means": "LinePoints"       
+            "means": "ไลน์พอยท์"       
         },
         {
             "tag": "Payments",
             "specific": [
-                "แรปบิทไลน์เพย์",
+                "Rabbit Line Pay",
+                "Rabbit Pay",
                 "แรปบิทเพย์"
             ],
-            "means": "Rabbit Line Pay"
+            "means": "แรปบิทไลน์เพย์"
         },
         {
             "tag": "E-Pay",
@@ -51,12 +52,11 @@
         {
             "tag": "Pick-Up",
             "specific": [
-                "พิคอัพ",
                 "พิกอัป",
                 "pickup",
                 "pik up"
             ],
-            "means": "Pickup"
+            "means": "พิคอัพ"
         },
         {
             "tag": "promotion00",
@@ -274,7 +274,7 @@
                 "หา Line points จากไหนได้บ้าง",
                 "จะหาไลน์พอยท์เพิ่มจากที่ไหนได้บ้าง"
             ],
-            "means": "หา LINE Points"
+            "means": "หาไลน์พอยท์"
         },
         {
             "tag": "payment06",
@@ -285,7 +285,7 @@
                 "หนึ่งไลน์พอยท์มีค่าเท่าไร",
                 "หนึ่งไลน์พอยท์"
             ],
-            "means": "1 LINE Points"
+            "means": "1 ไลน์พอยท์"
         },
         {
             "tag": "payment07",
@@ -304,7 +304,7 @@
                 "ขั้นต่ำในการสั่งอาหารด้วย line points",
                 "มีขั้นต่ำในการสั่งด้วยไลน์พอยท์ไหม"
             ],
-            "means": "ขั้นต่ำ LINE Points"
+            "means": "ขั้นต่ำไลน์พอยท์"
         },
         {
             "tag": "payment09",
@@ -365,7 +365,7 @@
                 "line points หมายถึง",
                 "LinePointsคืออะไร"
             ],
-            "means": "LINE Points คืออะไร"
+            "means": "ไลน์พอยท์คืออะไร"
         },
         {
             "tag": "service06",
@@ -384,7 +384,7 @@
                 "ฟีเจอร์ Pickup ทำงานอย่างไร",
                 "พิคอัพคือ"
             ],
-            "means": "pickup คืออะไร"
+            "means": "พิคอัพ"
         },
         {
             "tag": "service08",
