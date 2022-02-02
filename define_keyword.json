@@ -36,11 +36,15 @@
         {
             "tag": "E-Pay",
             "specific": [
+                "epayment",
+                "Epayment",
+                "EPayment",
                 "e-payment",
                 "E-payment",
                 "E-Payment",
                 "อีเพเม้น",
-                "อีเพ"
+                "อีเพ",
+                "อีเพย์"
             ],
             "means": "อีเพย์เมนท์"
         },
