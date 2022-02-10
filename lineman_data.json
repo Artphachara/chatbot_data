@@ -189,7 +189,7 @@
         {
             "tag": "payment06",
             "patterns": [
-                "1 ไลน์พอยท์"
+                "1ไลน์พอยท์"
             ],
             "responses": [
                 "1 LINE POINT = 1 บาท"
