@@ -10,4 +10,5 @@ body {
     height: 80px;
     width: 100%;
     background-color: #ffb6b9;
+    display: table;
 }
