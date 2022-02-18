@@ -5,13 +5,6 @@
         <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
     </head>
     <body>
-        <div class="header">
-            <!-- button to change page between lineman and insurance -->
-            <a href="{{url_for('lineman')}}">
-                <p style="float: left;" >Lineman</p>
-            </a>
-                <p style="float: right;">Insurance</p>
-        </div>
 
         {% block content %}
 
