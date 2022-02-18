@@ -14,11 +14,11 @@ from pythainlp.util import dict_trie, find_keyword, countthai, eng_to_thai, isth
 import add_dict
 
 # loaded json data from json file
-with open('lineman_data.json',encoding="utf8") as lineman_data:
+with open('static/json/lineman_data.json',encoding="utf8") as lineman_data:
   lineman_data = json.load(lineman_data)
-with open('define_keyword.json',encoding="utf8") as DefineKeywordData:
+with open('static/json/define_keyword.json',encoding="utf8") as DefineKeywordData:
   DefineKeywordData = json.load(DefineKeywordData)
-with open('ignore_dict.json',encoding="utf8") as ignoreDict:
+with open('static/json/ignore_dict.json',encoding="utf8") as ignoreDict:
   ignoreDict = json.load(ignoreDict)
 
 ignore_dict = []
@@ -246,18 +246,18 @@ def lineman_final_process(sentence):
   keyword_tag = sort_greeting(keyword_tag)
   return keyword_tag
 
-def main_lineman():
-  while True:
-    sentence = input("user: ")
-    if sentence == 'q':
-      break
-    else:
-      keyword_tag = lineman_final_process(sentence)
-      # get keyword_tag in word for find responses in tag with random answer.
-      for word in keyword_tag:
-        for intent in lineman_data['intents']:
-          # print(word)
-          if word == intent['tag']:
-            print("bot: ", random.choice(intent['responses']))
+# def main_lineman():
+#   while True:
+#     sentence = input("user: ")
+#     if sentence == 'q':
+#       break
+#     else:
+#       keyword_tag = lineman_final_process(sentence)
+#       # get keyword_tag in word for find responses in tag with random answer.
+#       for word in keyword_tag:
+#         for intent in lineman_data['intents']:
+#           # print(word)
+#           if word == intent['tag']:
+#             print("bot: ", random.choice(intent['responses']))
 
-main_lineman()
+# main_lineman()
