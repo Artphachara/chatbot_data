@@ -27,9 +27,15 @@ app.static_folder = 'static'
 @app.route("/")
 def main():
     return render_template("main.html")
+
 @app.route('/lineman')
 def lineman():
         return render_template("lineman.html")
+
+@app.route('/insurance')
+def insurance():
+        return render_template("insurance.html")
+
 @app.route("/get")
 def get_response_lineman():
     userText = request.args.get('msg')
