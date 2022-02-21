@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}<title>LineMan</title>{% endblock title %}
+{% block title %}<title>Nong Wa Noi Chatbot</title>{% endblock title %}
 
 {% block content %}
 <!DOCTYPE html>
@@ -17,24 +17,17 @@
 </head>
 
 <body>
-   <div class="topic-header">
-      <!-- button to change page between lineman and insurance -->
-       <a href="{{url_for('lineman')}}">
-          <p style="float: left; padding: 8px 0 0 20px;" >Lineman</p>
-       </a>
-          <p style="float: right; padding: 8px 20px 0 0;">Insurance</p>
-   </div>
   <!-- partial:index.partial.html -->
   <section class="msger">
     <header class="msger-header">
-      <div class="msger-header-title">
+      <div class="msger-header-title" style="font-weight: bolder;">
          <i class="fa-solid fa-messages"></i> LineMan Chatbot <i class="fa-solid fa-messages"></i>
       </div>
     </header>
 
     <main class="msger-chat">
       <div class="msg left-msg">
-        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+        <div class="msg-img" style="background-image: url('static/images/admin_lizard.png')"></div>
 
         <div class="msg-bubble">
           <div class="msg-info">
@@ -65,8 +58,8 @@
 
 
     // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+    const BOT_IMG = "/static/images/admin_respone.png";
+    const PERSON_IMG = "/static/images/user.png";
     const BOT_NAME = "LineMan ChatBot";
     const PERSON_NAME = "You";
 

@@ -6,6 +6,16 @@
     </head>
     <body>
 
+      <div class="topic-header">
+         <!-- button to change page between lineman and insurance -->
+          <a href="{{url_for('lineman')}}">
+             <p style="float: left; padding: 8px 0 0 10px;">Lineman</p>
+          </a>
+          <a href="{{url_for('insurance')}}">
+            <p style="float: right; padding: 8px 10px 0 0;">Insurance</p>
+          </a>
+      </div>
+
         {% block content %}
 
         {% endblock content %}
