@@ -46,7 +46,7 @@ body {
     justify-content: space-between;
     width: 100%;
     /* max-width: 867px; */
-    max-width: 1470px;
+    max-width: 1500px;
     margin: 10px 0 0 0;
     height: calc(100% - 50px);
     border: var(--border);
